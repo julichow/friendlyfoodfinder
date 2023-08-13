@@ -1,0 +1,47 @@
+/* CSS FOR RESTAURANTS pages */
+
+/* RESTAURANTS */
+.restaurant-image {
+  width: 420px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.restaurant-popup-image {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* MAP */
+.marker {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #910b0b;
+}
+
+.marker:hover {
+  color: rgb(37, 36, 36);
+}
+
+.card-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.map {
+  width: 90%;
+  height: 400px;
+  margin: auto;
+}
+
+.map-text-container {
+  width: 90%;
+  margin: auto;
+}

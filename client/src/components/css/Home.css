@@ -1,0 +1,167 @@
+/* Logo headers */
+.logo {
+  margin: auto;
+  width: auto;
+  height: 70px;
+}
+
+.logo2 {
+  margin: auto;
+  width: auto;
+  height: 70px;
+}
+
+.home-img-container {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  margin: 0;
+}
+
+.home-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.95;
+}
+
+.slowFade {
+  height: 100vh;
+  width: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slowFade .slide img {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #000;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  opacity: 0;
+  -webkit-animation: slowFade 16s infinite;
+  animation: slowFade 16s infinite;
+}
+.slowFade .slide:nth-child(7) img {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.slowFade .slide:nth-child(6) img {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+.slowFade .slide:nth-child(5) img {
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
+}
+.slowFade .slide:nth-child(4) img {
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
+}
+
+.slowFade .slide:nth-child(3) img {
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
+}
+.slowFade .slide:nth-child(2) img {
+  -webkit-animation-delay: 12s;
+  animation-delay: 12s;
+}
+.slowFade .slide:nth-child(1) img {
+  -webkit-animation-delay: 14s;
+  animation-delay: 14s;
+}
+@keyframes slowFade {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slowFade {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+/* END IMAGE SLIDER */
+
+.home-searchbar-wrapper {
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .home-img {
+  height: 400px;
+  object-fit: cover; */
+/* background-image: url("../../assets/home-1.jpg"); */
+/* margin-top: 60px;
+} */
+
+.home-input,
+.home-btn {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.home-searchbar {
+  border-radius: 5px;
+}
+
+.res-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  aspect-ratio: 1/1;
+  align-items: baseline;
+}
+
+.restaurant-card {
+  border: 1px solid rgb(112, 111, 111);
+  scale: 80%;
+  border-radius: 20px;
+  list-style-type: none;
+  text-align: center;
+  box-shadow: 1px 1px 10px 1px rgba(41, 41, 41, 0.208);
+  height: 100%;
+}
+
+.res-text {
+  padding: 10px;
+}
+
+.filter-by-preference {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.filter-pref-title {
+  color: rgb(243, 26, 26);
+}
+
+.gluten {
+  color: blue;
+}
+
+.dairy {
+  color: green;
+}
+
+.vegetarian {
+  color: orange;
+}
+
+.vegan {
+  color: fuchsia;
+}

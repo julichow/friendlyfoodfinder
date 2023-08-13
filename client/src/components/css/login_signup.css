@@ -1,0 +1,69 @@
+/* CSS FOR LOGIN & SIGN UP PAGES*/
+/* BOTH pages */
+.registerlogo {
+  width: auto;
+  height: 70px;
+  display: flex;
+  margin: auto;
+}
+
+.registerheading {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* LOG IN Page */
+.logincontainer {
+  min-width: 300px;
+  max-width: 400px;
+  padding: 10px 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 15px 15px rgba(226, 226, 226, 0.86);
+  -moz-box-shadow: 3px 15px 15px rgba(226, 226, 226, 0.86);
+  box-shadow: 3px 15px 15px rgba(226, 226, 226, 0.86);
+}
+
+.logintext,
+.logintext a,
+.logintext a:hover {
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.loginpage {
+  margin-bottom: 40px;
+  padding-top: 40px;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* SIGN UP Page */
+.signuppage {
+  background-color: #e71212;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.signupcontainer {
+  min-width: 300px;
+  max-width: 400px;
+  padding: 10px 20px;
+  height: 470px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 3px 15px 15px rgba(167, 0, 0, 0.86);
+  -moz-box-shadow: 3px 15px 15px rgba(167, 0, 0, 0.86);
+  box-shadow: 3px 15px 15px rgba(167, 0, 0, 0.86);
+}
+
+.signuptext,
+.signuptext a,
+.signuptext a:hover {
+  color: #fff;
+  text-align: center;
+}
