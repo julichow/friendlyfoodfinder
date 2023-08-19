@@ -1,8 +1,9 @@
 -- Create restaurants table
 
+DROP TABLE IF EXISTS users_restaurants;
 DROP TABLE IF EXISTS restaurants;
 DROP TABLE IF EXISTS users;
-DROP TABLE IF EXISTS users_restaurants;
+
 
 CREATE TABLE restaurants (
     id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -13,8 +14,6 @@ CREATE TABLE restaurants (
     vegetarian BOOLEAN,
     vegan BOOLEAN
 );
-
--- SELECT * FROM users_restaurants JOIN restaurants ON restaurants.id = users_restaurants.restaurantsId WHERE users_restaurants.usersId = ${req.user_id};
 
 CREATE TABLE users (
     users_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL, 
